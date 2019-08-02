@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+   "name": "Trello List Hider",
+   "version": "0.1",
+   "content_scripts": [
+     {
+       "matches": ["https://trello.com/*"],
+       "js": ["content.js"]
+     }
+   ]
+}
